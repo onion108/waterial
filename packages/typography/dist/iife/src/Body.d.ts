@@ -1,3 +1,8 @@
 import { LeafComponent } from '@leaf-web/core';
-declare const _default: typeof LeafComponent;
-export default _default;
+declare class Body extends LeafComponent {
+    static watchedProps: string[];
+    constructor();
+    render(): any;
+    css(): string;
+}
+export default Body;

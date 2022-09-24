@@ -33,4 +33,6 @@ class Body extends LeafComponent {
   }
 }
 
-export default registerComponent('waterial-body', Body);
+registerComponent('waterial-body', Body);
+
+export default Body;
